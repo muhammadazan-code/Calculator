@@ -4,7 +4,7 @@ Widget buildButton(
   String text, {
   Color? buttonColor = Colors.blueGrey,
   double? size = 35,
-  void Function()? onPress,
+  required void Function()? onPress,
 }) {
   return Padding(
     padding: const EdgeInsets.symmetric(horizontal: 5.0, vertical: 6.0),
